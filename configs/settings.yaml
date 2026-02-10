@@ -1,0 +1,14 @@
+app:
+  name: "Local AI Assistant"
+  environment: "development"
+
+models:
+  embedding_model: "local-embed"
+  llm_model: "local-llm"
+
+retrieval:
+  top_k: 5
+  chunk_size: 500
+
+logging:
+  level: "INFO"
